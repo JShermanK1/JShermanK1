@@ -1,5 +1,13 @@
-## Hi there 👋
+# About me  
+My undergraduate and graduate research experience focused on molecular and cellular biology with an emphasis on cell cycle regulation and metabolism. As an undergraduate I did research with Dr. David Rivers and Dr. Rebecca Brogan on the expression of heat shock proteins during the development of flesh fly larvae. As a graduate student with Dr. Ruoning Wang, my research focused on the integration of cell cycle control in G2 and metabolism. I gained a solid foundation in molecular biology and expertise in metabolic assays and flow cytometry especially concerning cell synchronization and the measuring of cell cycle progression. I developed a novel method to rapidly measure the progression of cells from G2 phase to mitosis. Approaching the end of my graduate career I taught myself the python programing language and the basics of data science. For my postdoctoral training, I will continue to develop my abilities in data science and bioinformatics along those in molecular biology. My mentor Dr. Emily Theisen is accomplished working with genomics data, and work being done in the lab will provide ample opportunity to work with multi-omics datasets. My current research involves determining the mechanism of action for the Lysine-specific Demethylase 1 (LSD1) inhibitor SP-2509 in Ewing Sarcoma. Over the course of this project, I have discovered that in addition to inhibiting LSD1, SP-2509 acts to inhibit the incorporation of iron sulfur clusters into nascent proteins, as well as gained experience working with high-performance computing and analyzing genomic and proteomic data.
+<br><br>
 
+___
+
+# Projects  
+- Using the Rust programing language, I wrote a program to optimize parameters for a logarithmic curve to describe the data from a Cellular Thermal Shift Assay coupled with proteomic mass spectrometry (CETSA-MS). Available analytical programs at the time were made assumptions about the data that were too restrictive for our use case. While I initially created a solution using python, the non-linear data from our CETSA-MS required optimizing the initial guess for the parameters that we were estimating, and the python solution took several hours to run per an iteration. Using the rust interface for the Polars dataframe library and multithreading I was able to create a solution that ran quickly enough that we could optimize the initial guess in a reasonable amount of time. This allowed us to find a very interesting and unexpected result in data that would otherwise have been excluded from the analysis.
+
+- 
 <!--
 **JShermanK1/JShermanK1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
